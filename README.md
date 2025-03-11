@@ -9,6 +9,12 @@ Esta aplicación móvil, desarrollada en Flutter, permite a los usuarios escanea
 - [x] **Aplicación compilable para Android e iOS.** Modulo Scanner QR
 - [ ] **Inclusión de pruebas unitarias**
 
+## Funcionalidades y Mejoras Pendientes
+- [ ] **Feature Authentication**
+- [ ] **Desarrollo Test**
+- [ ] **Despliegue automatizado**
+- [ ] **Falvors**
+
 ## Requisitos previos
 
 Asegúrate de tener las siguientes herramientas instaladas en tu máquina:
@@ -73,3 +79,8 @@ Para crear una versión de producción de la aplicación, usa los siguientes com
 ### Android:
 ```bash
 flutter build apk --release
+```
+
+## Demostración
+- [Video demo IOS](https://github.com/preppuciano/reto-seek/blob/main/docs/RPReplay_Final1741693667.MP4).
+- [APK android](https://github.com/preppuciano/reto-seek/blob/main/docs/app-release.apk).
