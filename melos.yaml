@@ -1,0 +1,8 @@
+name: reto_seek
+packages:
+  - modules/*
+  - packages/*
+scripts:
+  install:
+    run: flutter pub get
+    description: Install dependencies for all packages

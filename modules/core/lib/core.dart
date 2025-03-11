@@ -1,0 +1,9 @@
+export 'package:core/src/router/app_paths.dart';
+export 'package:core/src/router/app_router.dart';
+export 'package:core/src/presentation/widgets/qr_code_scanner_pigeon/qr_code_scanner_pigeon.dart';
+export 'package:core/src/presentation/widgets/qr_code_scanner_pigeon/qr_code_scanner_api.dart';
+export 'package:core/src/config/app_assets.dart';
+export 'package:core/src/config/app_color.dart';
+export 'package:core/src/config/app_config.dart';
+export 'package:core/src/config/app_theme.dart';
+export 'package:core/src/utils/utils.dart';
