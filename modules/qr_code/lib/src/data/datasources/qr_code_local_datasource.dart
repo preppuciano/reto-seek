@@ -1,3 +1,4 @@
+import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:qr_code/src/data/models/qr_code_model.dart';
@@ -10,7 +11,7 @@ abstract class QRCodeLocalDatasource {
 
 class HiveQRCodeLocalDatasource implements QRCodeLocalDatasource {
   HiveQRCodeLocalDatasource() {
-    Hive.initFlutter();
+    Directory.systemTemp.createTemp().then((value) => Hive.init(value.path));
   }
 
   @override

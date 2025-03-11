@@ -27,15 +27,11 @@ struct ContentView: View {
     }
     var body: some View {
         VStack(spacing: 10) {
-            Text(scannedCode)
-            Button("SCAN"){
-                self.isPresentingScanner = true
-            }
+            Text("")
             .sheet(isPresented: $isPresentingScanner){
                 self.scannerSheet
             }
         }
-        .padding()
         .onAppear(){
             self.isPresentingScanner = true
         }
